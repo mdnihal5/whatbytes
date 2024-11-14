@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Project Overview
+
+This is a [Next.js](https://nextjs.org) project that includes the following key components:
+
+## Components
+
+1. **ComparisonGraphCard.tsx**: A component that displays a comparison graph.
+2. **QuestionAnalysisCard.tsx**: A component that displays an analysis of questions.
+3. **SidebarNav.tsx**: A component that renders the sidebar navigation.
+4. **SkillTestCard.tsx**: A component that displays a skill test card.
+5. **SyllabusProgressCard.tsx**: A component that displays the progress of a syllabus.
+6. **UpdateModal.tsx**: A component that displays an update modal.
+
+These components are used throughout the application to provide various functionality and user interface elements.
+
+## Project Structure
+
+The project structure is as follows:
+
+- `app/`: This directory contains the Next.js application files, including the `layout.tsx` and `page.tsx` files.
+- `components/`: This directory contains the reusable components used throughout the application.
+- `components.json`: This file likely contains configuration or metadata related to the components.
+- `lib/`: This directory contains utility functions or other library code.
+- `next.config.ts`: The Next.js configuration file.
+- `next-env.d.ts`: TypeScript definition file for Next.js.
+- `package.json`: The project's dependencies and scripts.
+- `package-lock.json`: Locked versions of the project's dependencies.
+- `postcss.config.mjs`: PostCSS configuration file.
+- `public/`: This directory contains static assets, such as images, icons, and fonts.
+- `README.md`: The project's README file.
+- `tailwind.config.ts`: Tailwind CSS configuration file.
+- `tsconfig.json`: TypeScript configuration file.
 
 ## Getting Started
 
-First, run the development server:
+To set up the project locally, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone the repository.
+2. Install the dependencies by running `npm install` or `yarn install`.
+3. Start the development server by running `npm run dev` or `yarn dev`.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+To learn more about Next.js, check out the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - An interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can also visit the [Next.js GitHub repository](https://github.com/vercel/next.js) to provide feedback or contribute to the project.
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
