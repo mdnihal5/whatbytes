@@ -8,7 +8,7 @@ const SidebarNav: React.FC = () => {
     <aside className="w-full md:w-64 bg-white p-6 shadow-md">
       <div className="flex items-center mb-6">
         <Image 
-          src="/whatbytes.jpg" 
+          src="https://i.postimg.cc/d03BjpMQ/whatbytes.avif" 
           alt="WhatBytes Logo" 
           width={40} 
           height={40} 
